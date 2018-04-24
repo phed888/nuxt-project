@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /Users/brspeight/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/brspeight/.yarn/bin:/Users/brspeight/.config/yarn/global/node_modules/.bin:./node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "nuxt-course-1",
+    "version": "1.0.0",
+    "description": "My riveting Nuxt.js project",
+    "author": "Brian Speight",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0"
+    },
+    "devDependencies": {
+      "cross-env": "^5.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at MessageError.Error (native)
+      at new MessageError (/Users/brspeight/.yarn/lib/cli.js:186:110)
+      at checkOne (/Users/brspeight/.yarn/lib/cli.js:62444:11)
+      at Object.check (/Users/brspeight/.yarn/lib/cli.js:62463:5)
+      at /Users/brspeight/.yarn/lib/cli.js:22803:73
+      at next (native)
+      at step (/Users/brspeight/.yarn/lib/cli.js:98:30)
+      at /Users/brspeight/.yarn/lib/cli.js:109:13
